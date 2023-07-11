@@ -1,11 +1,19 @@
 backend:
-  name: github
+  name: git-gateway
   repo: gatsby-gitbook-starter # Path to your Github repository
   branch: master # Branch to update (master by default)
-
-media_folder: "images/uploads" # Folder where user uploaded files should go
+  commit_messages:
+    create: "Create {{collection}} “{{slug}}”"
+    update: "Update {{collection}} “{{slug}}”"
+    delete: "Delete {{collection}} “{{slug}}”"
+    uploadMedia: "[skip ci] Upload “{{path}}”"
+    deleteMedia: "[skip ci] Delete “{{path}}”"  
 
 publish_mode: editorial_workflow
+show_preview_links: true
+local_backend: true
+media_folder: static/img
+public_folder: /img
 
 collections: # A list of collections the CMS should be able to edit
   - name: "codeblock" # Used in routes, e.g., /admin/collections/:slug/edit
