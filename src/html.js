@@ -22,6 +22,7 @@ export default class HTML extends React.Component {
           ) : null}
           <noscript key="noscript"></noscript>
           {this.props.headComponents}
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </head>
         <body {...this.props.bodyAttributes}>
           {this.props.preBodyComponents}
