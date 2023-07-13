@@ -32,7 +32,7 @@ Account for, and verify ownership of every account and resource in your organiza
 Provide reporting and visibility into who approved what access for someone, when, why, and for how long.
 Evaluate if account and permissions are too broad user-wise, or permissions-wise.
 
-## Trustle will not:
+## Trustle will not :123
 
 Create or destroy entities on the remote service side. Trustle will only add/remove permissions for a user, to/from a remote resource.
 
