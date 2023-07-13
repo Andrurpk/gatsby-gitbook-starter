@@ -1,9 +1,9 @@
 ---
-title: 'Chapter 1 - Admin'
-metaTitle: 'Trustle Learn - Chapter 1 - Admin'
-metaDescription: 'This is the meta description for this page'
+title: Chapter 1 - Admin
+metaTitle: Trustle Learn - Chapter 1 - Admin
+metaDescription: This is the meta description for this page
+date: 2023-07-13T15:40:23.365Z
 ---
-
 Introduction
 This guide will walk you through the setup and operation of Trustle. It’s intended for both admins and users.
 
@@ -32,7 +32,7 @@ Account for, and verify ownership of every account and resource in your organiza
 Provide reporting and visibility into who approved what access for someone, when, why, and for how long.
 Evaluate if account and permissions are too broad user-wise, or permissions-wise.
 
-Trustle will not:
+## Trustle will not:
 
 Create or destroy entities on the remote service side. Trustle will only add/remove permissions for a user, to/from a remote resource.
 
