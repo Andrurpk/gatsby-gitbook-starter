@@ -7,18 +7,26 @@ const config = {
   },
   header: {
     logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://trustle.io',
+    logoLink: 'https://hasura.io/learn/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",    
+      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' />123</a>",
+    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/TrustleSecurity" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
 		      </div>
 		    </a>
-		  </li>			
+		  </li>
+			<li>
+		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
+		      <div class="discordBtn">
+		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		      </div>
+		    </a>
+		  </li>`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -40,11 +48,11 @@ const config = {
     frontLine: false,
     ignoreIndex: true,
     title:
-      "<a href='https://trustle.io/'>Trustle </a><div class='greenCircle'></div>",
+      "<a href='https://hasura.io/learn/'>Trustle </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>-</a>",
   },
   siteMetadata: {
-    title: 'Learn | Trustle',
-    description: 'Documentation for Trustle app ',
+    title: 'Gatsby Gitbook Boilerplate | Hasura',
+    description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
     docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
