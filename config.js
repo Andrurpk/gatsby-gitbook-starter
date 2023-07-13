@@ -47,7 +47,7 @@ const config = {
     title: 'Learn | Trustle',
     description: 'Documentation for Trustle ',
     ogImage: null,
-    docsLocation: 'https://trustle.io',
+    docsLocation: '', // disabled Edit on Github link
     favicon: 'https://www.trustle.com/icons/icon-48x48.png',
   },
   pwa: {
