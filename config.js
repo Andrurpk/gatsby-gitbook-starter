@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://www.trustle.com/icons/icon-48x48.png',
+    logo: 'https://trustleint.trustle.io/logo/trustle-white.svg',
     logoLink: 'https://trustle.io',
     title:
       "<a href='https://trustle.io'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",    
