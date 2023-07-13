@@ -9,7 +9,7 @@ const config = {
     logo: 'https://www.trustle.com/icons/icon-48x48.png',
     logoLink: 'https://trustle.io',
     title:
-      "<a href='https://trustle.io'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' />123</a>",    
+      "<a href='https://trustle.io'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",    
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
