@@ -6,7 +6,7 @@ const config = {
     trailingSlash: false,
   },
   header: {
-    logo: 'https://www.trustle.com/icons/icon-96x96.png',
+    logo: 'https://www.trustle.com/icons/icon-48x48.png',
     logoLink: 'https://trustle.io',
     title:
       "<a href='https://trustle.io'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' />123</a>",    
@@ -44,11 +44,11 @@ const config = {
       "<a href='https://hasura.io/learn/'>Trustle </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>-</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Learn | Trustle',
+    description: 'Documentation for Trustle ',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
-    favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
+    docsLocation: 'https://trustle.io',
+    favicon: 'https://www.trustle.com/icons/icon-48x48.png',
   },
   pwa: {
     enabled: false, // disabling this will also remove the existing service worker.
