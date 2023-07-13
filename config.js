@@ -9,7 +9,7 @@ const config = {
     logo: 'https://trustleint.trustle.io/logo/trustle-white.svg',
     logoLink: 'https://trustle.io',
     title:
-      "<a href='https://trustle.io'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",    
+      "LEARN",    
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
@@ -41,7 +41,7 @@ const config = {
     frontLine: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>Trustle </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>-</a>",
+      "<a href='https://hasura.io/learn/'>Trustle </a><div class='greenCircle'></div>",
   },
   siteMetadata: {
     title: 'Learn | Trustle',
