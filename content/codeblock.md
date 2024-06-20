@@ -9,9 +9,9 @@ This guide will walk you through the setup and operation of Trustle. It’s inte
 
 There are three chapters in the documentation:
 
-Chapter 1 - Intro and Admin
+Chapter 1 - Intro and Admin 
 Chapter 2 - AWS Connector
-Chapter 3 - Requesting, Approving, and Provisioning Access
+Chapter 3 - Requesting, Approving, and Provisioning Accessasdasd
 
 This is Chapter 1! The only prerequisite to following along with the documentation is to sign up for a “Trustle Teams” trial.
 
@@ -32,7 +32,7 @@ Account for, and verify ownership of every account and resource in your organiza
 Provide reporting and visibility into who approved what access for someone, when, why, and for how long.
 Evaluate if account and permissions are too broad user-wise, or permissions-wise.
 
-## Trustle will not:
+## Trustle will not: 123
 
 Create or destroy entities on the remote service side. Trustle will only add/remove permissions for a user, to/from a remote resource.
 
